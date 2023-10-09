@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 
+{ /*Sentrerer h1 elemtent på skjermen.*/
+    text-align: center;
+}
+
+  /*Setter første p element til gul bakgrunnsfarge*/
+p 
+{
+    background-color: yellow;
+}
+
+  /*Lager en svart ramme som er 10pixler bred rundt bilde.*/
+img
+{
+    border: 10px solid black;
+}
